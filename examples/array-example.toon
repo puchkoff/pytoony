@@ -1,0 +1,39 @@
+# Array Examples in TOON Format
+# Demonstrates various array formats
+
+# Tabular array - most token-efficient format for uniform objects
+products[4]{id,name,price,category}:
+  1,Laptop,1299.99,Electronics
+  2,Phone,899.99,Electronics
+  3,Book,19.99,Education
+  4,Desk,299.99,Furniture
+
+# Simple string array
+colors:
+  red
+  green
+  blue
+  yellow
+  purple
+
+# Simple number array
+scores:
+  95
+  87
+  92
+  88
+  91
+
+# Array of mixed types
+mixed:
+  42
+  hello
+  true
+  3.14
+  null
+
+# Tabular array with boolean values
+users[3]{id,name,active}:
+  1,Alice,true
+  2,Bob,false
+  3,Charlie,true

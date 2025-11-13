@@ -1,0 +1,23 @@
+# Example TOON (Token Oriented Object Notation) file
+name: John Doe
+age: 30
+email: john.doe@example.com
+active: true
+
+# Nested object
+address:
+  street: 123 Main Street
+  city: New York
+  state: NY
+  zipcode: 10001
+
+# Tabular array format (more token-efficient)
+users[2]{id,name,role}:
+  1,Alice,admin
+  2,Bob,user
+
+# Simple array (non-uniform items)
+tags:
+  python
+  json
+  converter
